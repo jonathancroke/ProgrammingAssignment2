@@ -53,12 +53,12 @@ cacheSolve <- function(x) {
   s
 }
 
-m <- matrix(c(0, 2, 1, 0), nrow = 2, ncol = 2, byrow = TRUE)
-cm <- makeCacheMatrix(m)
-a <- cacheSolve(cm)
-b <- cacheSolve(cm)
-m2 <- matrix(c(0, 8, 16, 0), nrow = 2, ncol = 2, byrow = TRUE)
-cm2 <- makeCacheMatrix()
-cm2$set(m2)
-c <- cacheSolve(cm2)
-d <- cacheSolve(cm2)
+# m <- matrix(c(0, 2, 1, 0), nrow = 2, ncol = 2, byrow = TRUE)
+# cm <- makeCacheMatrix(m)
+# a <- cacheSolve(cm)
+# b <- cacheSolve(cm)
+# m2 <- matrix(c(0, 8, 16, 0), nrow = 2, ncol = 2, byrow = TRUE)
+# cm2 <- makeCacheMatrix()
+# cm2$set(m2)
+# c <- cacheSolve(cm2)
+# d <- cacheSolve(cm2)
